@@ -1,0 +1,85 @@
+.app-body {
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+}
+
+.card {
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Inner spacing */
+    width: 350px; /* Fixed width for the card */
+}
+
+.alert {
+    margin-bottom: 20px; /* Spacing below alert messages */
+}
+
+.registration-title, .login-title {
+    margin-bottom: 20px; /* Spacing below title */
+    text-align: center; /* Centered title */
+}
+
+.dashboard-body {
+    display: flex;
+}
+.sidebar {
+    width: 250px;
+    height: auto;
+    background-color: #343a40;
+}
+.sidebar a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+.sidebar a:hover {
+    background-color: #495057;
+}
+.sidebar a.active {
+    background-color: #495057; /* Active link color */
+    font-weight: bold; /* Bold active link */
+}
+.topbar {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.profile-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* Profile Page Specific Styles */
+.content {
+    padding: 20px;
+}
+.profile-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: inline-block; /* To center the profile section */
+}
+.profile-section p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+.profile-section img.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
