@@ -1,3 +1,4 @@
+{{-- This is the body for login and registration page --}}
 <!DOCTYPE html>
 <html lang="en">
 <head>

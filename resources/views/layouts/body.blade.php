@@ -1,3 +1,4 @@
+{{-- This is the body for user pages --}}
 <!DOCTYPE html>
 <html lang="en">
 <head>

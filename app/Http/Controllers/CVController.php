@@ -11,7 +11,7 @@ class CVController extends Controller
      */
     public function index()
     {
-        //
+        return view('view-cv');
     }
 
     /**
@@ -41,9 +41,9 @@ class CVController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(string $id)
+    public function edit()
     {
-        //
+        return view('edit-cv');
     }
 
     /**
