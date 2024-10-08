@@ -102,4 +102,11 @@ h4{
 .custom-table{
     padding-top: 10px; /* This won't work, use margin-top instead */
     margin-top: 10px; /* Apply margin for spacing above the table */
+    text-align: center;
+    
+}
+.edit-.container {
+    max-width: 100% !important;
+    width: 100%;
+
 }

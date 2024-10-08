@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('title', 'Registation')
 @section('content')
-    <h4 class="registration-title text-center">Register</h4>
+    <h3 class="registration-title text-center">Register</h4>
     @if (session('success'))
         <div class="alert alert-success">
             {{ session('success') }}

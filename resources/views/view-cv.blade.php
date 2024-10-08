@@ -40,7 +40,7 @@
                 <h4 class="mt-4 ">ACADEMIC QUALIFICATION</h4>
                     <table class="table table-bordered custom-table">
                         <thead>
-                            <tr class="bg-green-100">
+                            <tr>
                                 <th>Degree</th>
                                 <th>Major</th>
                                 <th>Institute</th>
@@ -67,7 +67,7 @@
                 <h4 class="mt-4">WORK EXPERIENCE</h4>
                     <table class="table table-bordered custom-table">
                         <thead>
-                            <tr class="bg-green-100">
+                            <tr>
                                 <th>Experience Title</th>
                                 <th>Company Name</th>
                                 <th>Experience</th>
@@ -113,10 +113,9 @@
                                 </tbody>
                             </table>
                         </div>
-                        
                         <!-- Second Column for additional skills -->
                         <div class="col-md-6">
-                            <table class="table table-bordered">
+                            <table class="table table-bordered custom-table">
                                 <thead>
                                     <tr>
                                         <th>Name</th>
@@ -133,30 +132,33 @@
                                         {{-- @endif --}}
                                     {{-- @endforeach --}}
                                 </tbody>
-                            </div>
                             </table>
+                        </div>
+                        
                     </div>
-            </div>
+
                 {{-- Endn of Skills --}}
 
                 {{-- Language  --}}
                 <h4 class="mt-4">LANGUAGE</h4>
-                    <table class="table table-bordered custom-table">
-                        <thead>
-                            <tr>
-                                <th>Experience Title</th>
-                                <th>Company Name</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {{-- @foreach($Auth::user()->educations as $education) --}}
-                            <tr>
-                                <td>Student Intern</td>
-                                <td>American International University-Bangladesh</td>
-                            </tr>
-                            {{-- @endforeach --}}
-                        </tbody>
-                    </table>
+                    <div class="col-md-6">
+                        <table class="table table-bordered table-hover custom-table">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Proficiency</th>
+                                </tr>
+                            </thead>
+                            <tbody class="text-center">
+                                {{-- @foreach($Auth::user()->educations as $education) --}}
+                                <tr>
+                                    <td>Bangla</td>
+                                    <td>pro</td>
+                                </tr>
+                                {{-- @endforeach --}}
+                            </tbody>
+                        </table>
+                    </div>
                 {{-- End of Language  --}}
 
             </div>

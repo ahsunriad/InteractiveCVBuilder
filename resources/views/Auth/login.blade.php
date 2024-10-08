@@ -2,7 +2,7 @@
 @section('title', 'Login')
 
 @section('content')
-    <h4 class="login-title text-center">Login</h4>
+    <h3 class="login-title text-center">Login</h4>
     @if (session('success'))
         <div class="alert alert-success">
             {{ session('success') }}
